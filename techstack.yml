@@ -1,0 +1,246 @@
+repo_name: rajadilipkolli/progen
+report_id: d277b3c635c8a05719e8a333ad95075c
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-19T13:59:53+00:00'
+requested_by: sivaprasadreddy
+provider: github
+branch: main
+detected_tools_count: 18
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/rajadilipkolli/progen
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/rajadilipkolli/progen/blob/main/generators/spring-boot/templates/src/main/resources/db/migration/flyway/V1__init.sql
+  detection_source: generators/spring-boot/templates/src/main/resources/db/migration/flyway/V1__init.sql
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rajadilipkolli/progen
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/rajadilipkolli/progen/blob/main/.github/workflows/build.yml
+  detection_source: ".github/workflows/build.yml"
+  last_updated_by: K Siva Prasad Reddy
+  last_updated_on: 2023-12-28 08:10:01.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/rajadilipkolli/progen/blob/main/generators/minimal-java/templates/gradle-wrapper/gradlew
+  detection_source: generators/minimal-java/templates/gradle-wrapper/gradlew
+  last_updated_by: K Siva Prasad Reddy
+  last_updated_on: 2023-11-05 06:28:46.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/rajadilipkolli/progen/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: K Siva Prasad Reddy
+  last_updated_on: 2023-11-19 14:54:15.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/rajadilipkolli/progen
+  detection_source: Repo Metadata
+- name: ansi
+  description: Small, fast library to create ANSI colored strings and codes
+  package_url: https://pkg.go.dev/github.com/mgutz/ansi
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rajadilipkolli/progen/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: K Siva Prasad Reddy
+  last_updated_on: 2023-11-05 06:28:46.000000000 Z
+- name: cobra
+  description: A Commander for modern Go CLI interactions
+  package_url: https://pkg.go.dev/github.com/spf13/cobra
+  version: 1.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rajadilipkolli/progen/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: K Siva Prasad Reddy
+  last_updated_on: 2023-11-19 14:54:15.000000000 Z
+- name: go-colorable
+  description: Go-colorable Colorable writer for windows
+  package_url: https://pkg.go.dev/github.com/mattn/go-colorable
+  version: 0.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rajadilipkolli/progen/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: K Siva Prasad Reddy
+  last_updated_on: 2023-11-19 14:54:15.000000000 Z
+- name: go-difflib
+  description: Partial port of Python difflib package to Go
+  package_url: https://pkg.go.dev/github.com/pmezard/go-difflib
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rajadilipkolli/progen/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: K Siva Prasad Reddy
+  last_updated_on: 2023-11-07 02:01:58.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rajadilipkolli/progen/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: K Siva Prasad Reddy
+  last_updated_on: 2023-11-19 14:54:15.000000000 Z
+- name: go-shellquote
+  description: Go utilities for performing shell-like word splitting/joining
+  package_url: https://pkg.go.dev/github.com/kballard/go-shellquote
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rajadilipkolli/progen/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: K Siva Prasad Reddy
+  last_updated_on: 2023-11-07 02:01:58.000000000 Z
+- name: go-spew
+  description: Implements a deep pretty printer for Go data structures to aid in debugging
+  package_url: https://pkg.go.dev/github.com/davecgh/go-spew
+  version: 1.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rajadilipkolli/progen/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: K Siva Prasad Reddy
+  last_updated_on: 2023-11-07 02:01:58.000000000 Z
+- name: mousetrap
+  description: Detect starting from Windows explorer
+  package_url: https://pkg.go.dev/github.com/inconshreveable/mousetrap
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rajadilipkolli/progen/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: K Siva Prasad Reddy
+  last_updated_on: 2023-11-19 14:54:15.000000000 Z
+- name: pflag
+  description: Drop-in replacement for Go's flag package
+  package_url: https://pkg.go.dev/github.com/spf13/pflag
+  version: 1.0.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rajadilipkolli/progen/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: K Siva Prasad Reddy
+  last_updated_on: 2023-11-05 06:28:46.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rajadilipkolli/progen/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: K Siva Prasad Reddy
+  last_updated_on: 2023-11-05 06:28:46.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rajadilipkolli/progen/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: K Siva Prasad Reddy
+  last_updated_on: 2023-11-19 14:54:15.000000000 Z
